@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.left-bar{
+    display: flex;
+    padding-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.left-bar i{
+    border: 0.5px hidden;
+    border-radius: 7px;
+    background-color: rgb(224, 215, 210);
+    font-size: large;
+    margin-left: 7%;
+    padding: 5%;
+}
+
+.right-bar{
+    display: flex;
+}
+
+.mid-header1{
+    margin-top: 0.75%;
+}
+
+.right-bar select{
+    border: hidden;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0 1% 0; 
+    border-top: 0.1px solid rgb(230, 227, 227);
+    border-bottom: 0.1px solid rgb(230, 227, 227);
+}
+
+.left-header2{
+    color: pink;
+    margin-left: 0.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 3%;
+}
+
+.mid-header2 input{
+    height: 35px;
+    width: 60vw;
+    border-radius: 5px;
+    border-width: 0.1px;
+    margin-top: 0.75%;
+}
+
+.right-header2{
+    display: flex;
+    font-size: 25px;
+    margin-right: 5%;
+    margin-top: 0.75%;
+}
+
+.right-header2 i{
+    margin-right: 20%;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-around;
+    margin:1% 10% 1% 10%;
+}
+
+.menu-content button{
+    border: hidden;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+}
+
+.banner1{
+    position: relative;
+}
+
+.line1-banner1{
+    position: absolute;
+    top: 28%;
+    margin-left: 10%;
+    font-size: x-large;
+    color: rgb(253, 144, 163);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.line2-banner1{
+    position: absolute;
+    top: 37%;
+    margin-left: 10%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.line3-banner1{
+    position: absolute;
+    top: 61%;
+    margin-left: 10%;
+    font-size: larger;
+}
+
+.button-banner1{
+    position: absolute;
+    top: 70%;
+    margin-left: 10%;
+}
+
+.button-banner1 button{
+    border: hidden;
+    background-color: rgb(253, 144, 163);
+    width: 150%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    color: white;
+}
+
+.line3-banner1 span{
+    font-size: x-large;
+}
+
+.banner1 img{
+    border-radius: 10px;
+}
+
+.product-type1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5%;
+}
+
+.product-type1 div{
+    border: 1px solid rgb(230, 227, 227);
+    width: 22%;
+    display: flex;
+    border-radius: 5px;
+}
+
+.product-type1 img{
+    padding: 3%;
+    margin: 3%;
+    border: 1px solid rgb(230, 227, 227);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.product-type1 p{
+    color: rgb(253, 144, 163);
+    margin-top: 5%;
+}
+
+.product-type1 button{
+    text-align: left;
+    border: hidden;
+    background-color: white;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    margin-top: 2%;
+}
+
+.Category{
+    width: 22%;
+    margin-left: 1.5%;
+    margin-right: 2.75%;
+}
+
+.Products{
+    width: 72%;
+}
+
+.Category div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.Category img{
+    margin-right: 10%;
+}
+
+.condition{
+    display: flex;
+}
+
+.condition div{
+    margin-right: 28%;
+    font-weight: bold ;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.line1 div{
+    border: 1px solid rgb(230, 227, 227);
+    width: 30%;
+    padding: 1%;
+    display: flex;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.line1 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+.line1 button{
+    text-align: left;
+    border: hidden;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.line1 span{
+    color: rgb(252, 118, 140);
+}
+
+.Deal-Content h2{
+    margin-left: 2%;
+    border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+.Deal-Content img{
+    margin-left: 20%;
+}
+
+.Deal-Content h3{
+    color: rgb(252, 118, 140);
+    font-weight: bold;
+}
+
+.Deal-Data{
+    display: flex;
+    padding: 2%;
+    border:1px solid rgb(230, 227, 227);
+    margin: 2%;
+}
+
+.Deal-Data2{
+    margin-top: 4%;
+}
+
+.Deal-Data2 h4{
+    font-weight: bold;
+}
+
+.Deal-Data2 button{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(252, 118, 140) ;
+    border: hidden;
+    border-radius: 7px;
+    padding: 2%;
+}
+.Deal-Data p{
+    margin-top: 3%;
+}
+
+.Deal-Data h3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.sold{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.Time{
+    display: flex;
+}
+
+.Time div{
+    margin-top: 3%;
+    margin-right: 5%;
+    text-align: center;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 7px;
+    background-color: bisque;
+    padding: 1%;
+    width: 10%;
+}
+
+.New-Products h2{
+    margin-left: 2%;
+    border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+.line-a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-a h3{
+    color: pink;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.line-a p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3%;
+}
+
+.line-a div{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    width: 20%;
+    padding-left: 1%;
+}
+
+.line-a img{
+   margin-left: 20%;
+}
+
+.lower-data1{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.testimonial{
+    width: 22%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.testimonial h3{
+   border-bottom: 1px solid rgb(230, 227, 227);
+   padding-bottom: 1%;
+}
+
+.testimonial div{
+    text-align: center;
+    margin-top: 5%;
+    border: 0.5px solid rgb(230, 227, 227);
+    padding: 10%;
+    border-radius: 5px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+}
+
+.testimonial h4{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.testimonial h1{
+    color: rgb(250, 126, 147);
+}
+
+.offer img{
+    border-radius: 5px;
+}
+
+.our-services{
+   margin-left: 2%;
+   margin-right: 2%;
+   width: 22%;
+}
+
+.our-services h3{
+    border-bottom: 1px solid rgb(230, 227, 227);
+    padding-bottom: 1%;
+}
+
+.service-data{
+   margin-top: 5%;
+   border: 1px solid rgb(230, 227, 227);
+   border-radius: 5px;
+}
+.service-data2{
+    display: flex; 
+    padding: 4.5%;
+    margin-left: 8%;
+}
+
+.service-data2 div{
+    margin-left: 8%;
+}
+
+.service-data2 i{
+    margin-top: 3%;
+    color: rgb(251, 146, 164);
+}
+
+.BLOG-Data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+
+.BLOG-Data img{
+    height: 25vh;
+    width: 22vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.BLOG-Data div{
+    height: 25vh;
+    width: 22vw;
+}
+
+.BLOG-Data h4{
+    color: rgb(250, 126, 147);
+}
+
+.para1{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.one{
+    margin-left: 2%;
+}
+
+.four{
+    margin-right: 2%;
+}
+
+.Upper-footer{
+    background-color: black;
+    border-bottom: 0.25px solid rgb(230, 227, 227);
+}
+
+.Upper-footer h2{
+    color: rgb(252, 118, 140);
+    padding-top: 1.5%;
+    margin-left: 1.5%;
+}
+.Upper-footer div{
+    display: flex;
+    color: white;
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+}
+
+.Upper-footer button{
+    border: hidden;
+    padding: 0.25%;
+    background-color: black;
+    color: rgb(219, 212, 212);
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+}
+
+.last{
+    padding-bottom: 1%;
+}
+
+.Upper-footer button:hover{
+    font-weight: bold;
+}
+
+.middle-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    border-bottom: 0.5px solid silver;
+}
+
+.middle-footer h4{
+    color: white;
+    text-decoration: pink underline;
+
+}
+
+.middle-footer div{
+    display: flex;
+    flex-direction: column;
+    color: rgb(219, 212, 212);
+}
+
+.contact{
+    display: flex;
+}
+
+.middle-footer button{
+    background-color: black;
+    text-align: left;
+    border: hidden;
+    color: rgb(219, 212, 212);
+    margin-top: 3%;
+}
+
+.middle-footer p{
+    margin-top: 2%;
+}
+
+.lower-footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.lower-footer i{
+    color: white;
+    font-size: xx-large;
+    margin: 0.5%;
+}
+
+.rights{
+    text-align: center;
+    background-color: black;
+    color: bisque;
+    padding-bottom: 2%;
+}
+
+.menu-bar{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+
+    body,html{
+        height: 100%;
+        width: 100%;
+    }
+
+    .left-bar{
+        display: none;
+    }
+
+    .right-bar{
+        display: none;
+    }
+
+    .mid-header1{
+        display : flex;
+    }
+
+    .header2{
+        display: block;
+        text-align: center;
+    }
+
+    .right-header2{
+        display: none;
+    }
+
+    .left-header2{
+        margin: 1%;
+    }
+
+    .menu-content{
+        display: none;
+    }
+    .all1{
+        display: none;
+    }
+    .all2{
+        display: none;
+    }
+    .Deal-Data{
+        display: block;
+    }
+    .testimonial{
+        display: none;
+    }
+    .our-services{
+        display: none;
+    }
+    .offer img{
+        width: 100%;
+    }
+    .all3{
+        display: none;
+    }
+    .menu-bar{
+        display: flex;
+        justify-content: space-between;
+        font-size: xx-large;
+       
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(241, 240, 239);
+    }
+    .menu-bar i{
+        margin:4%;
+        width: 45em
+    }
+}
+@media only screen and (max-width: 1100px) {
+
+    body,html{
+        height: 100%;
+        width: 100%;
+    }
+
+    .left-bar{
+        display: none;
+    }
+
+    .right-header2{
+        display: none;
+    }
+   
+    .menu-content{
+        display: none;
+    }
+
+    .testimonial div{
+        height:320px;
+       overflow: scroll;
+    }
+
+    .service-data2 h4{
+        font-size: 11px;
+        margin-top: 50%;
+    }
+
+    .service-data2 i{
+        margin-top: 40%;
+    }
+
+    .service-data2 p{
+        display: none;
+    }
+
+    .all1{
+        display: none;
+    }
+    .all2{
+       display: none;
+    }
+    .Deal-Data{
+        display: block;
+        text-align: center;
+    }
+
+    .Deal-Data img{
+        margin-left: -0.8%;
+    }
+
+    .Deal-Data div{
+        justify-content: center;
+    }
+    .offer img{
+        width: 100%;
+    }
+    .all3{
+        display: none;
+    }
+    .menu-bar{
+        display: flex;
+        justify-content: space-between;
+        font-size: xx-large;
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(241, 240, 239);
+    }
+    .menu-bar i{
+        margin:4%
+    }
+
+}
